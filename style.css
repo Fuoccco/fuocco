@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container1{
+margin: 0 auto;
+    width:1440px;
+}
+body{
+    font-family: "Lato-regular";
+    padding-bottom: 100px;
+}
+@font-face {
+    font-family: "Lato-regular";
+    src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Lato-bold";
+    src: url(fonts/Lato-Bold.ttf);
+}
+header{
+    background: url(img/Bg.png);
+    background-size: cover;
+    padding-top: 55px;
+    padding-bottom: 195px;
+}
+
+.logo{
+    margin-left: -10px;
+    margin-top: 12px;
+    background: url(img/Group3.png);
+    background-size: 220px;
+    width: 275px;
+    height: 40px;
+    padding-right: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.navigate{
+    margin-left: 264px;
+    margin-top: 43px;
+}
+.nav{
+    list-style: none;
+    margin: 0; 
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    display: flex;
+    
+}
+.shapk{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(0, 0, 0);
+}
+li {
+    margin-top: -26px;
+    margin-right: 23px; 
+}
+.vhod{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 240px;
+    margin-top: 12px;
+}
+.fuoco{
+    margin: 0 auto;
+    text-align: center;
+}
+.zag1 h1{
+    text-align: center;
+    margin-top: 220px;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: white;
+}
+.text1 p{
+    margin-top: 33px;
+    font-size: 30px;
+    width: 670px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Lato-Bold";
+    margin-left:380px;
+    line-height: 150%;
+}
+.inform{
+    align-items: center;
+}
+.ppr{
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 210px;
+    padding: 18px;
+    color: #ED4C5C;
+    font-size: 1.25em;
+    margin-top: 82px;
+    text-transform: uppercase;
+}
+.text2 h1{
+    text-align: left;
+    width: 600px;
+    margin-top: 165px;
+    font-size: 48px;
+    text-align: start;
+}
+.inform{
+    display: flex;
+    padding-bottom:5px ;
+}
+.text2 p{
+    text-align: start;
+    margin-top: 40px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-family: "Lato-Bold";
+    line-height: 140%;
+}
+.podrobnee{
+    margin-left: 233px;
+    margin-top: -45px;
+    color:#ED4C5C;
+    font-size: 18px;
+}
+.video{
+    margin-top: 125px;
+    width: 587px;
+    height: 411px;
+    margin-left: 140px;
+    content: url(img/Video_bg.png);
+}
+.inform2{
+    background-color: #FAFAFA;
+}
+.vozmozhnosti{
+    margin-top:120px;
+    padding: 5px;
+    padding-bottom: 5px;
+    background: #FAFAFA;
+}
+.vozmozh{
+    font-family: "Lato-bold";
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+}
+.blocks h2{
+    margin-left: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    width: 230px;
+}
+.blocks p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blocks a{
+    margin-left: 110px;
+    font-size: 12px;
+color: #ED4C5C;
+}
+.img{
+    padding-bottom: 100px;
+}
+.img2{
+    margin-left: 60px;
+}
+.img3{
+    margin-left: 60px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    justify-content: space-between;
+}
+.block1{
+    padding: 20px;
+    margin-left: 33px;
+    width: 293px;
+    height: 198px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.block2{
+    padding: 20px;
+    width: 293px;
+height: 198px;
+background: #FFFFFF;
+box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+.block3{
+    padding: 20px;
+    margin-right: 145px;
+    width: 293px;
+height: 198px;
+background: #FFFFFF;
+box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+.technology{
+    margin-top:60px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+.tech{
+    font-family: "Lato-bold";
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+}
+.blocks2 h2{
+    margin-left: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    width: 230px;
+}
+.blocks2 p{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blocks2 a{
+    margin-left: 110px;
+    font-size: 12px;
+color: #ED4C5C;
+}
+.img2{
+    margin-top: 100px;
+}
+.img11{
+    margin-left: 90px;
+}
+.img22{
+    margin-left: 240px;
+}
+.img33{
+    margin-left: 235px;
+}
+.img34{
+    margin-left: 235px;
+}
+.blocks2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.block11{
+    width: 293px;
+}
+.block22{
+    width: 293px;
+}
+.block33{
+    width: 293px;
+}
+.block44{
+    width: 293px;
+}
+.economy{
+    margin-top: 100px;
+    background: #ED4C5C;
+    padding: 100px;
+}
+.textred{
+    width: 400px;
+}
+.textred h2{
+    line-height: 120%;
+    color: white;
+    font-size: 36px;
+}
+.textred p{
+    line-height: 110%;
+    margin-top: 40px;
+    color: white;
+    width: 600px;
+}
+.textphoto{
+    display: flex;
+}
+.imgchel{
+    margin-left: 400px;
+    margin-top: -40px;
+}
+.apps{
+    content: url(img/Apps.png);
+    margin-top: -50px;
+}
+.textpole{
+    display: flex;
+}
+.pole{
+    margin-left: 200px;
+    width:400px;
+}
+.nameppl{
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 540px;
+    padding: 20px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.nmbrppl{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 540px;
+    padding: 20px;
+    border: 1px solid #333333;
+border-radius: 6px;
+box-sizing: border-box;
+}
+.send{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #ED4C5C;
+    width: 160px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 1.25em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 55px;
+}
+.textobr{
+    margin-top: 100px;
+}
+.textobr h2{
+font-size: 36px;
+}
+.textobr p{
+    margin-top: 50px;
+    font-size: 14px;
+}
+footer{
+    margin-bottom: -100px;
+    background:#FAFAFA;
+    padding: 60px;
+    margin-top: 153px;
+}
+.adres h2{
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+.adres .copir{
+    margin-top: 45px;
+}
